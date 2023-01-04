@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    background: #F3C61F;
+    height: 140px;
+    width: 100%;
+}
+
+header img{
+    width: 280px;
+    margin-top: 30px;
+    margin-left: 70px;
+}
+
+section{
+    display:grid;
+    grid-auto-flow: column;
+}
+
+h1{
+    font-weight: 700;
+    font-size: 70px;
+    color: #F3C61F;
+    text-align: center;
+    margin-top: 40px;
+}
+
+h2{
+    font-weight: 700;
+    font-size: 30px;
+    color: white;;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+#apresentacao p{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    line-height: 39px; 
+    margin-top: 1px;
+    padding: 70px;
+    font-weight: 400;
+}
+
+#apresentacao{
+    background: #514988;
+    width: 44vw; 
+    color: white;
+    height: auto;
+}
+
+#contvideo{
+    width: 54.9vw;
+    text-align: center;
+}
+
+.timer {
+    display: grid;
+    grid-auto-flow: column;
+    margin-top: 35px;
+    color: #514988;
+    font-size: 70px;
+} 
+
+#textcont{
+    color: #E33881;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    margin-top: 8px;
+    margin-bottom: 20px;
+}
+
+video {
+    width: 94%; 
+    height: 94%; 
+    border: none;
+    margin-top: 8px;
+}
+
+.ingressos{
+    display:grid;
+    grid-auto-flow: row;
+}
+
+#garanta{
+    font-weight: 700;
+    font-size: 28px;
+    color: #F3C61F;
+    margin-left: 4.5%;
+    padding: 20px;
+
+}
+
+#ingressos{
+    display:flex;   
+    justify-content: center;
+    margin-left: -100px;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+section button{
+    width: 600px;
+    height: 150px;
+    border: none;
+    border-radius: 15px;
+    background: #514988;
+    color: white;
+    font-weight: 700;
+    font-size: 45px;
+    text-align: center;
+    margin-left: 180px;
+    align-items: center;
+}
+
+#ingressos button:hover {
+    background-color: #F3C61F;
+}
